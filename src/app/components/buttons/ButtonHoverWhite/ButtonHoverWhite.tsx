@@ -6,7 +6,6 @@ function ButtonHoverWhite({ text = "" }) {
   return (
     <div>
       <Button variant="primary"  className={styles['button-custom']} onClick={() => console.log("Shop Now")}>
-       
         {text}
       </Button>
     </div>

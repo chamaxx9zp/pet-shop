@@ -6,7 +6,7 @@ import Image from "next/image";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import ButtonHoverWhite from "../buttons/ButtonHoverBrown/ButtonHoverWhite";
+import ButtonHoverWhite from "../buttons/ButtonHoverWhite/ButtonHoverWhite";
 
 import firstSlideImage from "../../../../public/homepage/hero-slider/adorable-dog-park-nature-with-owner.jpg";
 
