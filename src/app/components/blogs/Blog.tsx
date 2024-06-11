@@ -1,15 +1,14 @@
-import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import styles from './Blog.module.scss'
-import Card from 'react-bootstrap/Card';
-import Image from 'next/image';
-import ButtonHoverBrown from '../buttons/ButtonHoverBrown/ButtonHoverBrown';
-import blog1 from '/public/homepage/Blogs/blog1.png';
-import blog2 from '../../../../public/homepage/Blogs/blog2.png';
-import blog3 from '../../../../public/homepage/Blogs/blog3.png';
-
+import React from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import styles from "./Blog.module.scss";
+import Card from "react-bootstrap/Card";
+import Image from "next/image";
+import ButtonHoverBrown from "../common/buttons/ButtonHoverBrown/ButtonHoverBrown";
+import blog1 from "/public/homepage/Blogs/blog1.png";
+import blog2 from "../../../../public/homepage/Blogs/blog2.png";
+import blog3 from "../../../../public/homepage/Blogs/blog3.png";
 
 function Blog() {
   return (
@@ -23,7 +22,7 @@ function Blog() {
             </div>
           </Col>
         </Row>
-        <Row className='py-2'>
+        <Row className="py-2">
           <Col md={4}>
             <Card className="mt-5">
               <div className="imgcont">
@@ -46,7 +45,7 @@ function Blog() {
             </Card>
           </Col>
           <Col md={4}>
-          <Card className="mt-5">
+            <Card className="mt-5">
               <div className="imgcont">
                 <Image
                   src={blog2}
@@ -67,7 +66,7 @@ function Blog() {
             </Card>
           </Col>
           <Col md={4}>
-          <Card className="mt-5">
+            <Card className="mt-5">
               <div className="imgcont">
                 <Image
                   src={blog3}
@@ -89,12 +88,11 @@ function Blog() {
           </Col>
         </Row>
         <div className="text-center mt-5">
-        <ButtonHoverBrown text="More Blogs"/>
+          <ButtonHoverBrown text="More Blogs" />
         </div>
-        
       </Container>
     </div>
   );
 }
 
-export default Blog
+export default Blog;

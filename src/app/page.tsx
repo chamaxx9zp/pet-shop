@@ -6,6 +6,7 @@ import FeaturedProducts from "./components/featured-products/FeaturedProducts";
 import PromotionBanner from "./components/promotion-banner/PromotionBanner";
 import Blog from "./components/blogs/Blog";
 import NewsLetter from "./components/news-letter/NewsLetter";
+import Footer from "./components/common/footer/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <PromotionBanner/>
       <Blog/>
       <NewsLetter/>
+      <Footer/>
     </>
   );
 }
