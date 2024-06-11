@@ -11,7 +11,7 @@ function NewsLetter() {
   return (
     <div className={styles["background-color"]}>
       <Container>
-        <Row className={styles["news-letter"]}>
+        <Row className={styles["news-letter"]} align-content-center>
           <Col md={7}>
             <div className="">
               <h1 className="text-white">Get In With Some Pet News</h1>
@@ -21,8 +21,8 @@ function NewsLetter() {
               </p>
             </div>
           </Col>
-          <Col md={5}>
-            <div className="">
+          <Col md={5} className='d-flex align-items-center'>
+            <div className="w-100">
             <InputGroup className="">
               <Form.Control
                 aria-label="Enter Your Email Address"

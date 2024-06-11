@@ -10,10 +10,20 @@
 .btn-subscribe {
     background-color: #2B1801;
     color: #FFFFFF;
+    border: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+
+    &:hover {
+        background-color: #2B1801; 
+        border: none; 
+        color: #FFFFFF;
+      }
 }
 
 .custom-input {
-    height: 50px;
+    height: 60px;
     padding: 10px; 
   }
   
