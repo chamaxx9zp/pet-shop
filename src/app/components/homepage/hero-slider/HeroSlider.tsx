@@ -23,7 +23,7 @@ function HeroSlider() {
                   alt="First slide"
                   className="imgcont"
                 />
-                <Carousel.Caption className="hero-caption">
+                <Carousel.Caption className={styles["hero-caption"]}>
                   <h1 className="text-start">Furry Friends Haven</h1>
                   <p className="text-start">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -41,7 +41,7 @@ function HeroSlider() {
                   alt="First slide"
                   className="imgcont"
                 />
-                <Carousel.Caption className="hero-caption">
+                <Carousel.Caption className={styles["hero-caption"]}>
                   <h1 className="text-start">Furry Friends Haven</h1>
                   <p className="text-start">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -59,7 +59,7 @@ function HeroSlider() {
                   alt="First slide"
                   className="imgcont"
                 />
-                <Carousel.Caption className="hero-caption">
+                <Carousel.Caption className={styles["hero-caption"]}>
                   <h1 className="text-start">Furry Friends Haven</h1>
                   <p className="text-start">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
