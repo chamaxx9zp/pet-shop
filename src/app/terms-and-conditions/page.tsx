@@ -1,9 +1,10 @@
 import React from 'react'
+import HeroSlider from '../components/terms-conditions-page/hero-slider/HeroSlider'
 
 function page() {
   return (
     <>
-      <h1>Terms And Conditions Page</h1>
+    <HeroSlider/>
     </>
   )
 }

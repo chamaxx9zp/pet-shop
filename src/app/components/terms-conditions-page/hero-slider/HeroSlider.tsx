@@ -6,13 +6,12 @@ import Image from "next/image";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import HeroImage from '../../../../public/shop/29.png'
-
+import HeroImage from '/public/terms-and- conditions/38.png'
 
 function HeroSlider() {
   return (
     <>
-     <Container fluid className="px-0">
+    <Container fluid className="px-0">
         <Row>
           <Col>
             <Carousel indicators={false} controls={false}>
