@@ -4,10 +4,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'next/image'
 import styles from './FeaturedProducts.module.scss'
-import featured1 from "../../../../public/homepage/featured-products/featured1.png"
-import featured2 from "../../../../public/homepage/featured-products/featured2.png"
-import featured3 from "../../../../public/homepage/featured-products/featured3.png"
-import featured4 from "../../../../public/homepage/featured-products/featured4.png"
+import featured1 from "/public/homepage/featured-products/featured1.png"
+import featured2 from "/public/homepage/featured-products/featured2.png"
+import featured3 from "/public/homepage/featured-products/featured3.png"
+import featured4 from "/public/homepage/featured-products/featured4.png"
 
 function FeaturedProducts() {
   return (

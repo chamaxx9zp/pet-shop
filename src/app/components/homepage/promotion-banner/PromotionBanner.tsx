@@ -5,8 +5,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import styles from "./PromotionBanner.module.scss";
-import ButtonHoverBrown from "../common/buttons/ButtonHoverBrown/ButtonHoverBrown";
-import BannerImage from "../../../../public/homepage/promotion-banner/promotion_banner-web.png";
+import ButtonHoverBrown from "../../common/buttons/ButtonHoverBrown/ButtonHoverBrown";
+import BannerImage from "/public/homepage/promotion-banner/promotion_banner-web.png";
 
 function PromotionBanner() {
   return (

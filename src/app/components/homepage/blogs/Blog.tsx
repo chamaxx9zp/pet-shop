@@ -5,10 +5,10 @@ import Col from "react-bootstrap/Col";
 import styles from "./Blog.module.scss";
 import Card from "react-bootstrap/Card";
 import Image from "next/image";
-import ButtonHoverBrown from "../common/buttons/ButtonHoverBrown/ButtonHoverBrown";
+import ButtonHoverBrown from "../../common/buttons/ButtonHoverBrown/ButtonHoverBrown";
 import blog1 from "/public/homepage/Blogs/blog1.png";
-import blog2 from "../../../../public/homepage/Blogs/blog2.png";
-import blog3 from "../../../../public/homepage/Blogs/blog3.png";
+import blog2 from "/public/homepage/Blogs/blog2.png";
+import blog3 from "/public/homepage/Blogs/blog3.png";
 
 function Blog() {
   return (

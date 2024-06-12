@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Playpen_Sans } from "next/font/google";
 import "./globals.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NewsLetter from "./components/common/news-letter/NewsLetter";
+import Footer from "./components/common/footer/Footer";
 
 const PlaypenSans = Playpen_Sans({ subsets: ["latin"] });
 
@@ -19,6 +21,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={PlaypenSans.className}>
         {children}
+        <NewsLetter/>
+        <Footer/>
       </body>
     </html>
   );
