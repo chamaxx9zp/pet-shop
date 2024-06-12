@@ -1,0 +1,15 @@
+.button-custom {
+    border-radius: 30px;
+    background-color: #543000;
+    color: white;
+    border: 2px solid #543000;
+    padding: 10px 20px;
+    font-size: 16px;
+  
+    &:hover {
+      background-color: transparent;
+      color: white;
+      border-color: white;
+    }
+  }
+  
