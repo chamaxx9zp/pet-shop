@@ -1,0 +1,22 @@
+/* styles/globals.css */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: brown; /* Change color to match your design */
+}
+
+.carousel-inner .row {
+  align-items: center;
+}
+
+.carousel-inner p {
+  font-size: 1.2em;
+}
+
+h2 {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive; /* Customize font as needed */
+}
+
+h3 {
+  color: brown; /* Customize color */
+}
