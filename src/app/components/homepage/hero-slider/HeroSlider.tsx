@@ -6,9 +6,9 @@ import Image from "next/image";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import ButtonHoverWhite from "../common/buttons/ButtonHoverWhite/ButtonHoverWhite";
+import ButtonHoverWhite from "../../common/buttons/ButtonHoverWhite/ButtonHoverWhite";
 
-import firstSlideImage from "../../../../public/homepage/hero-slider/adorable-dog-park-nature-with-owner.jpg";
+import firstSlideImage from "/public/homepage/hero-slider/adorable-dog-park-nature-with-owner.jpg";
 
 function HeroSlider() {
   return (
@@ -23,7 +23,7 @@ function HeroSlider() {
                   alt="First slide"
                   className="imgcont"
                 />
-                <Carousel.Caption className="hero-caption">
+                <Carousel.Caption className={styles["hero-caption"]}>
                   <h1 className="text-start">Furry Friends Haven</h1>
                   <p className="text-start">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -41,7 +41,7 @@ function HeroSlider() {
                   alt="First slide"
                   className="imgcont"
                 />
-                <Carousel.Caption className="hero-caption">
+                <Carousel.Caption className={styles["hero-caption"]}>
                   <h1 className="text-start">Furry Friends Haven</h1>
                   <p className="text-start">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -59,7 +59,7 @@ function HeroSlider() {
                   alt="First slide"
                   className="imgcont"
                 />
-                <Carousel.Caption className="hero-caption">
+                <Carousel.Caption className={styles["hero-caption"]}>
                   <h1 className="text-start">Furry Friends Haven</h1>
                   <p className="text-start">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

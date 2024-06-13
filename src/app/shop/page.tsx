@@ -1,9 +1,12 @@
 import React from 'react'
+import HeroSlider from '../components/shop-page/hero-slider/HeroSlider'
+import Products from '../components/shop-page/products/Products'
 
 function page() {
   return (
     <>
-        <h1>Shop Page</h1>
+      <HeroSlider/>
+      <Products/>
     </>
   )
 }

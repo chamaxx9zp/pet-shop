@@ -1,0 +1,28 @@
+.row-padding{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.overlay-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    // align-items: center;   
+    height: 100%; 
+    margin-left: 5rem;  
+    
+    @media (max-width: 768px) {
+        margin-left: 3rem;
+    }
+}
+
+.form-background {
+    background-color: #F1EDE6; 
+    padding: 2rem;  
+    height: 100%; 
+    
+    @media (max-width: 768px) {
+        margin-top: 3rem;
+    }
+}
+  
