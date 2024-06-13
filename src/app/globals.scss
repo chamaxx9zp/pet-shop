@@ -1,4 +1,4 @@
-
+@import './_base.scss';
 // * {
 //   box-sizing: border-box;
 //   padding: 0;
@@ -39,4 +39,8 @@ a {
 .imgcont{
   width: 100%;
   object-fit: cover;
+}
+
+.text-brown{
+  color: $text-brown
 }

@@ -5,7 +5,7 @@ function Terms() {
   return (
     <>
      <Container>
-      <Row className='py-5'>
+      <Row className='py-5 text-brown'>
         <Col>
         <h6 className="">Welcome to Our Pet Shop!</h6>
         <br />
