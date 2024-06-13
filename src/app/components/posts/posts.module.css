@@ -1,0 +1,30 @@
+.blogcard {
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  .blogcard img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .blogcard .cardbody {
+    padding: 15px;
+  }
+  .blogcard .cardtitle {
+    color: #6d4c41;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .blog-card .cardtext {
+    color: #757575;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .blog-card .readmore {
+    color: #4caf50;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+  }

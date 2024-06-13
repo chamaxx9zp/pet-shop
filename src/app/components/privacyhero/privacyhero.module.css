@@ -1,0 +1,7 @@
+.bgherobackground {
+    background-image: url('../../images/37.png');
+    background-size: cover; /* Adjust background size as needed */
+    background-position: center; /* Center the background image */
+    padding: 50px 0; /* Adjust padding as needed */
+  }
+  

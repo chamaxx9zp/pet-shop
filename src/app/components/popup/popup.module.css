@@ -1,0 +1,46 @@
+.modalcontent {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .modalbody {
+    display: flex;
+    padding: 0;
+  }
+  .modalbody img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+  .modalbody .content {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  .modalbody .contenth2 {
+    color: #4caf50;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .modalbody .contentp {
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .modalbody .content .form-control {
+    border-radius: 20px;
+    padding-left: 20px;
+  }
+  .modalbody .content .btnsubscribe {
+    background-color: #6d4c41;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  .modalbody .content .socialicons {
+    margin-top: 20px;
+  }
+  .modalbody .content .socialicons i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #6d4c41;
+  }
