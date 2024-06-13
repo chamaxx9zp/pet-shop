@@ -28,7 +28,7 @@ function Footer() {
                   magna.
                 </p>
                 <div className="d-flex"></div>
-                <Row className="justify-content-center text-white mt-2">
+                <Row className="justify-content-center text-white mt-2 d-none d-md-flex">
                   <Col md="auto">
                     <span>
                       <Image src={whatsapp_icon} alt="whatsapp-icon" />
