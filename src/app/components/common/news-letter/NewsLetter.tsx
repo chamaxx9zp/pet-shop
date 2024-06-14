@@ -11,7 +11,7 @@ function NewsLetter() {
   return (
     <div className={styles["background-color"]}>
       <Container>
-        <Row className={styles["news-letter"]} align-content-center>
+        <Row className={styles["news-letter"]}>
           <Col md={7}>
             <div className="">
               <h1 className="text-white">Get In With Some Pet News</h1>
