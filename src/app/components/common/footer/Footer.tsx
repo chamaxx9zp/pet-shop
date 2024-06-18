@@ -27,28 +27,13 @@ function Footer() {
                   elit, sed do eiusmod tempor incididunt ut labore et dolore
                   magna.
                 </p>
-                <div className="d-flex"></div>
-                <Row className="justify-content-center text-white mt-2 d-none d-md-flex">
-                  <Col md="auto">
-                    <span>
-                      <Image src={whatsapp_icon} alt="whatsapp-icon" />
-                    </span>
-                  </Col>
-                  <Col md="auto">
-                    <span>
-                      <Image src={facebook_icon} alt="facebook-icon" />
-                    </span>
-                  </Col>
-                  <Col md="auto">
-                    <span>
-                      <Image src={instagram_icon} alt="instagram-icon" />
-                    </span>
-                  </Col>
-                  <Col md="auto">
-                    <span>
-                      <Image src={youtube_icon} alt="youtube-icon" />
-                    </span>
-                  </Col>
+                <Row className=" mt-2">
+                  <div className="d-flex justify-content-center">
+                    <Image src={whatsapp_icon} alt="whatsapp-icon" className={styles['icon-space']}/>
+                    <Image src={facebook_icon} alt="facebook-icon" className={styles['icon-space']}/>
+                    <Image src={instagram_icon} alt="instagram-icon" className={styles['icon-space']}/>
+                    <Image src={youtube_icon} alt="youtube-icon" className={styles['icon-space']}/>
+                  </div>
                 </Row>
                 <Row className="justify-content-md-center text-white mt-4">
                   <Col md="auto">
