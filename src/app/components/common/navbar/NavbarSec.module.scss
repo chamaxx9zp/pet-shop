@@ -1,0 +1,19 @@
+.logo{
+    width: 65%;
+    height: 70%;
+}
+
+.custom-nav{
+    background-color: transparent;
+    position: absolute;
+    background-color: rgba(147, 138, 138, 0.296);
+    backdrop-filter: blur(7px);
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-link{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #FFFFFF;
+}

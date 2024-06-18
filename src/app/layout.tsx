@@ -4,6 +4,7 @@ import "./globals.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NewsLetter from "./components/common/news-letter/NewsLetter";
 import Footer from "./components/common/footer/Footer";
+import NavbarSec from "./components/common/navbar/NavbarSec";
 
 const PlaypenSans = Playpen_Sans({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={PlaypenSans.className}>
+        <NavbarSec/>
         {children}
         <NewsLetter/>
         <Footer/>
