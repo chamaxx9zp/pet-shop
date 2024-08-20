@@ -1,8 +1,24 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
 ## Getting Started
 
-First, run the development server:
+
+1. Clone the repository locally:
+
+```bash
+  git clone https://github.com/chamaxx9zp/pet-shop.git
+    or
+  gh repo clone chamaxx9zp/pet-shop
+```
+
+2. Run following command to setup dependencies:
+
+```bash
+  npm install
+```
+
+3. Start your project by running the following command:
 
 ```bash
 npm run dev
@@ -14,9 +30,8 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
